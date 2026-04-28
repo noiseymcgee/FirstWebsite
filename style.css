@@ -1,0 +1,63 @@
+body{
+    background-color: #639bff;
+}
+header{
+    background-color: #2359b8;
+    position: relative;
+    top: -50px;
+}
+body{
+    margin: 0;
+}
+aside{
+    width: 20%;
+    float: left;
+}
+section{
+    width: 40%;
+    float: left;
+}
+article{
+    width: 40%;
+    float: left;
+}
+.navBar{
+    background-color: #193e80;
+    height: 100px;
+    position: relative;
+    top: -60px;
+}
+.navLinks{
+    font-size: 50px;
+    padding: 35px;
+    position: relative;
+    top: 15px;
+}
+
+#head1{
+   
+
+    position: relative;
+}
+#head2{
+   
+
+    position: relative;
+    left: 1500px;
+
+}
+#hText1{
+    font-size: 75px;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    position: relative;
+    top: 175px;
+}
+#hText2{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    position: relative;
+    top: 175px;
+}
+
