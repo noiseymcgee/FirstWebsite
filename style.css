@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #639bff;
 }
@@ -12,14 +15,17 @@ body{
 aside{
     width: 20%;
     float: left;
+    padding: 10px;
 }
 section{
     width: 40%;
     float: left;
+    padding: 10px;
 }
 article{
     width: 40%;
     float: left;
+    padding: 10px;
 }
 .navBar{
     background-color: #193e80;
@@ -32,6 +38,10 @@ article{
     padding: 35px;
     position: relative;
     top: 15px;
+}
+
+a{
+    color:gold
 }
 
 #head1{
@@ -49,15 +59,24 @@ article{
 #hText1{
     font-size: 75px;
     text-align: center;
-    font-family: 'Brush Script MT', cursive;
+    font-family: "Comic Relief";
     position: relative;
     top: 175px;
 }
 #hText2{
     font-size: 35px;
     text-align: center;
-    font-family: 'Brush Script MT', cursive;
+    font-family: "Comic Relief";
     position: relative;
     top: 175px;
 }
 
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+
+    #head1{
+        top: 250px;
+    }
+}
